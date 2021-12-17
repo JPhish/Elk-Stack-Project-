@@ -1,4 +1,3 @@
-# Elk-Stack-Project-
 # Automated ELK Stack Deployment
 
 This document contains the following details:
