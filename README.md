@@ -102,19 +102,21 @@ SSH into the control node and follow the steps below:
 - Update the hosts file to include webservers and elk
 
 [webservers]
+
 10.0.0.5 ansible_python_interpreter=/usr/bin/python3
 10.0.0.6 ansible_python_interpreter=/usr/bin/python3
 
 [elk]
+
 10.2.0.4 ansible_python_interpreter=/usr/bin/python3
 
-- Run the playbook, and navigate to ____ to check that the installation worked as expected.
+- Run the playbook, and navigate to check that the installation worked as expected.
 
 - _Which file is the playbook? Where do you copy it?_
 . install-elk.yml
 . /etc/ansible
-- _Which file do you update to make Ansible run the playbook on a specific machine? 
+- Which file do you update to make Ansible run the playbook on a specific machine? 
 - hosts
 - How do I specify which machine to install the ELK server on versus which to install Filebeat on?_
 . One can specify the "elk" group to install on the ELK server and the "webservers" group to install Filebeat.
-- _Which URL do you navigate to in order to check that the ELK server is running?
+- Which URL do you navigate to in order to check that the ELK server is running?
